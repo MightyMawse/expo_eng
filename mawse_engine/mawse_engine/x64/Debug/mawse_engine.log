@@ -1,0 +1,4 @@
+﻿  base_actor.cpp
+C:\Users\llama\OneDrive\Documents\c++\mawse_engine\mawse_engine\typedef.h(16,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\llama\OneDrive\Documents\c++\mawse_engine\mawse_engine\typedef.h(16,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  mawse_engine.vcxproj -> C:\Users\llama\OneDrive\Documents\c++\mawse_engine\mawse_engine\x64\Debug\mawse_engine.exe

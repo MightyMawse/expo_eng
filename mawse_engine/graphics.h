@@ -9,8 +9,8 @@
 #define RENDER_DISTANCE 10
 #define WIN_HEIGHT 480
 #define WIN_WIDTH 680
-#define PARTITION_SIZE 100 // Must be even
-#define FOV 90
+#define PARTITION_SIZE 30 // Must be even
+#define FOV 45
 #define NEAR_CLIP 0.1f
 
 extern SDL_Renderer* pRenderer;

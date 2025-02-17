@@ -19,7 +19,7 @@ void Graphics::Init(void) {
 	return;
 }
 
-void DrawSky() {
+void DrawBackground() {
 	// Draw sky and ground
 	SDL_SetRenderDrawColor(pRenderer, 173, 250, 255, SDL_ALPHA_OPAQUE);
 
@@ -243,7 +243,9 @@ float Graphics::Raycast(Vertex v, float a) {
 	Vertex v_last = v;
 
 	while (!collision) {
-		v_last = CalculatePoint(v_last, std::fmod(a, 360.0f));
+		float heading = std::fmod(a, 360.0f);
+
+		v_last = CalculatePoint(v_last, heading);
 		collision = pWorld->IsWall(v_last);
 
 		if (RayLength(v, v_last) > RENDER_DISTANCE)
@@ -275,11 +277,11 @@ void Graphics::DrawColumn(float x, float height) {
 	SDL_SetRenderDrawColor(pRenderer, grayScale, grayScale, grayScale, SDL_ALPHA_OPAQUE);
 
 	float y_screenSpace[2] = { (height / 2), -height / 2 };
-	float width = WIN_WIDTH / PARTITION_SIZE;
+	float width = ((float)WIN_WIDTH / (float)(PARTITION_SIZE - 1)) + 1;
 
 	SDL_Rect rect;
 	rect.x = x - (width / 2);
-	rect.y = (WIN_HEIGHT - height) / 2;
+	rect.y = ((float)WIN_HEIGHT - height) / 2;
 	rect.w = width;
 	rect.h = height;
 
@@ -386,21 +388,22 @@ void Graphics::Render(void) {
 	SDL_SetRenderDrawColor(pRenderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
 	SDL_RenderClear(pRenderer);
 
-	DrawSky();
+	DrawBackground();
 
-	float columnWidth = WIN_WIDTH / PARTITION_SIZE;
+	float columnWidth = (float)WIN_WIDTH / (float)(PARTITION_SIZE - 1);
 
 	for (int n = 0; n < projectionAngles.size(); n++) {
 
 		//Vertex inlinePos = inlineCastPos[n];
 		float a = projectionAngles[n];
 		float aLocal = angleOffsets[n];
+
 		float distance = Raycast(pPlayer->GetPosition(), a);
 
 		if (distance != -1) {
 			float range = Utils::GetRayRange(distance, aLocal);
 			float columnHeight = Graphics::GetColumnHeight(range);
-			float x = ((WIN_WIDTH / PARTITION_SIZE) * n) + columnWidth;
+			float x = (columnWidth * n);
 
 			Graphics::DrawColumn(x, columnHeight);
 		}

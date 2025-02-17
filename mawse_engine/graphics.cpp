@@ -260,9 +260,10 @@ float Graphics::Raycast(Vertex v, float a) {
 // purpose: Get column height
 //--------------------------------------------------
 float Graphics::GetColumnHeight(float l) {
-	float lengthOverRD = l / RENDER_DISTANCE;
-	float inverse = 1 - lengthOverRD;
-	float height = inverse * WIN_HEIGHT;
+	//float lengthOverRD = l / RENDER_DISTANCE;
+	//float inverse = 1 - lengthOverRD;
+	//float height = inverse * WIN_HEIGHT;
+	float height = (WIN_HEIGHT * WALL_HEIGHT) / l;
 	return height;
 }
 
@@ -289,80 +290,12 @@ void Graphics::DrawColumn(float x, float height) {
 	SDL_RenderDrawRect(pRenderer, &rect);
 }
 
-//--------------------------------------------------
-// InLineCastPos()
-// purpose: Calculate the in line casting positions
-// relative to player position and orientation
-//--------------------------------------------------
-Vertex& Graphics::InLineCastPos(int iter, float aPerpendicular) {
-
-	Vertex player = StepFoward(pPlayer->GetPosition(), NEAR_CLIP, pPlayer->a);
-	Vertex castPos;
-
-	float a = std::fmod(pPlayer->a + aPerpendicular, 360.0f);
-	float h = (float)WIN_WIDTH / PARTITION_SIZE;
-	float coefficient = (h / WIN_WIDTH) * iter;
-	float x, y;
-
-	if (a <= 90) {
-		x = coefficient * Utils::Round_2DP(sin(DEG(a)));
-		y = coefficient * Utils::Round_2DP(cos(DEG(a)));
-	}
-	else if (a > 90 && a <= 180) {
-		x = coefficient * Utils::Round_2DP(cos(DEG(a - 90)));
-		y = -coefficient * Utils::Round_2DP(sin(DEG(a - 90)));
-	}
-	else if (a > 180 && a <= 270) {
-		x = -coefficient * Utils::Round_2DP(sin(DEG(a - 180)));
-		y = -coefficient * Utils::Round_2DP(cos(DEG(a - 180)));
-	}
-	else if (a > 270 && a <= 360) {
-		x = -coefficient * Utils::Round_2DP(cos(DEG(a - 270)));
-		y = coefficient * Utils::Round_2DP(sin(DEG(a - 270)));
-	}
-
-	castPos = Vertex(player.m_x + x, player.m_y + y);
-	return castPos;
-}
 
 //--------------------------------------------------
 // Render()
 // purpose: Raycast across the screen
 //--------------------------------------------------
 void Graphics::Render(void) {
-	// OBSOLETE: casts ray in line with the camera position,
-	// has rendering anomalies
-
-	/*
-	inlineCastPos.clear();
-
-	// Get casting positions for in-line raycasting
-	if (inlineCastPos.size() == 0) {
-		Vertex pInLinePos;
-
-		// Get inline positions to the left and right
-		for (int i = (PARTITION_SIZE / 2) - 1; i >= 0; --i) {
-			int iter = (i + 1);
-
-			pInLinePos = InLineCastPos(iter, -90);
-			inlineCastPos.push_back(pInLinePos);
-		}
-
-		for (int j = 0; j < (PARTITION_SIZE / 2); j++) {
-			int iter = (j + 1);
-
-			pInLinePos = InLineCastPos(iter, 90);
-			inlineCastPos.push_back(pInLinePos);
-		}
-
-		int midIndex = (inlineCastPos.size() / 2);
-
-		for (const Vertex& v : inlineCastPos) {
-			//std::cout << "(" << std::to_string(v.m_x) << ", " << std::to_string(v.m_y) << ")" << std::endl;
-		}
-	}
-	*/
-	
 	// Get angle offsets
 	projectionAngles.clear();
 
@@ -388,13 +321,11 @@ void Graphics::Render(void) {
 	SDL_SetRenderDrawColor(pRenderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
 	SDL_RenderClear(pRenderer);
 
-	DrawBackground();
+	//DrawBackground();
 
 	float columnWidth = (float)WIN_WIDTH / (float)(PARTITION_SIZE - 1);
 
 	for (int n = 0; n < projectionAngles.size(); n++) {
-
-		//Vertex inlinePos = inlineCastPos[n];
 		float a = projectionAngles[n];
 		float aLocal = angleOffsets[n];
 

@@ -5,13 +5,14 @@
 #include <SDL.h>
 
 #define PI 3.14
-#define DEG(x) (PI / 180.0f) * (x)
+#define DEG(x) ((PI / 180.0f) * (x))
 #define RENDER_DISTANCE 10
 #define WIN_HEIGHT 480
 #define WIN_WIDTH 680
 #define PARTITION_SIZE 30 // Must be even
 #define FOV 45
 #define NEAR_CLIP 0.1f
+#define WALL_HEIGHT 1.0f
 
 extern SDL_Renderer* pRenderer;
 

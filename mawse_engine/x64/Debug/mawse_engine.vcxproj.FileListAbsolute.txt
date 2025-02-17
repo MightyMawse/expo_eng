@@ -1,2 +1,3 @@
 C:\Users\llama\OneDrive\Documents\c++\mawse_engine\mawse_engine\x64\Debug\mawse_engine.exe
 C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\x64\Debug\mawse_engine.exe
+F:\expo_eng\mawse_engine\x64\Debug\mawse_engine.exe

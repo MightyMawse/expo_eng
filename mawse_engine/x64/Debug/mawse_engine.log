@@ -1,68 +1,91 @@
 ﻿  globals.cpp
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\typedef.h(16,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\typedef.h(16,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.h(18,14): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
+F:\expo_eng\mawse_engine\typedef.h(16,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'globals.cpp')
+  
+F:\expo_eng\mawse_engine\typedef.h(16,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'globals.cpp')
+  
+F:\expo_eng\mawse_engine\graphics.h(42,2): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
+  (compiling source file 'globals.cpp')
+  
   graphics.cpp
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\typedef.h(16,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\typedef.h(16,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.h(18,14): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\utils.h(6,14): warning C4091: 'static ': ignored on left of 'Utils' when no variable is declared
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\utils.h(10,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\utils.h(34,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(69,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(78,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(118,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(119,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(156,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(159,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(162,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(165,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(179,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(182,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(185,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(188,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(202,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(205,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(218,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(221,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(231,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(232,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(275,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(277,58): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(277,47): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(277,36): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(283,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(284,40): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(285,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(286,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(308,41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(309,41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(312,41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(313,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(316,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(317,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(320,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(321,41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(426,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(427,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(430,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(431,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(434,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(435,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(438,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(439,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\typedef.h(16,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'graphics.cpp')
+  
+F:\expo_eng\mawse_engine\typedef.h(16,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'graphics.cpp')
+  
+F:\expo_eng\mawse_engine\graphics.h(42,2): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
+  (compiling source file 'graphics.cpp')
+  
+F:\expo_eng\mawse_engine\utils.h(37,2): warning C4091: 'static ': ignored on left of 'Utils' when no variable is declared
+  (compiling source file 'graphics.cpp')
+  
+F:\expo_eng\mawse_engine\utils.h(10,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'graphics.cpp')
+  
+F:\expo_eng\mawse_engine\utils.h(34,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'graphics.cpp')
+  
+F:\expo_eng\mawse_engine\graphics.cpp(69,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(78,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(118,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(119,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(156,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(159,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(162,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(165,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(179,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(182,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(185,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(188,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(202,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(205,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(218,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(221,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(231,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(232,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(276,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(278,58): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(278,47): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(278,36): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(284,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(285,40): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(286,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(287,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(357,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(358,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(361,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(362,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(365,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(366,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(369,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(370,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   main.cpp
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.h(18,14): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
+F:\expo_eng\mawse_engine\graphics.h(42,2): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
+  (compiling source file 'main.cpp')
+  
   player.cpp
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\typedef.h(16,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\typedef.h(16,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.h(18,14): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\utils.h(6,14): warning C4091: 'static ': ignored on left of 'Utils' when no variable is declared
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\utils.h(10,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\utils.h(34,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\typedef.h(16,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'player.cpp')
+  
+F:\expo_eng\mawse_engine\typedef.h(16,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'player.cpp')
+  
+F:\expo_eng\mawse_engine\graphics.h(42,2): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
+  (compiling source file 'player.cpp')
+  
+F:\expo_eng\mawse_engine\utils.h(37,2): warning C4091: 'static ': ignored on left of 'Utils' when no variable is declared
+  (compiling source file 'player.cpp')
+  
+F:\expo_eng\mawse_engine\utils.h(10,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'player.cpp')
+  
+F:\expo_eng\mawse_engine\utils.h(34,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'player.cpp')
+  
   Generating Code...
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(87,1): warning C4172: returning address of local variable or temporary: dir
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(60,1): warning C4715: 'Graphics::GetAlpha': not all control paths return a value
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(443,1): warning C4172: returning address of local variable or temporary: next
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.cpp(325,1): warning C4172: returning address of local variable or temporary: castPos
-  mawse_engine.vcxproj -> C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\x64\Debug\mawse_engine.exe
+F:\expo_eng\mawse_engine\graphics.cpp(60,1): warning C4715: 'Graphics::GetAlpha': not all control paths return a value
+F:\expo_eng\mawse_engine\graphics.cpp(87,1): warning C4172: returning address of local variable or temporary: dir
+F:\expo_eng\mawse_engine\graphics.cpp(374,1): warning C4172: returning address of local variable or temporary: next
+  mawse_engine.vcxproj -> F:\expo_eng\x64\Debug\mawse_engine.exe

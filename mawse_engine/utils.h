@@ -31,7 +31,7 @@ public:
 
     // NOTE: A needs to be the offset angle, not the world space angle
     static float GetRayRange(float distance, float a) {
-        float range = distance / cos(DEG(a));
+        float range = distance * cos(DEG(a));
         return range;
     }
 };

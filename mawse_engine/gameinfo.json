@@ -1,0 +1,9 @@
+{
+	"game": "hl3",
+	"title": "Half-Life 3",
+	"type": "single_player",
+	"search_paths":{
+		"maps": "",
+		"sound": ""
+	}
+}

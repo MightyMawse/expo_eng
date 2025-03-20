@@ -1,11 +1,13 @@
-#pragma once
+#ifndef TYPEDEF_H
+#define TYPEDEF_H
+
 #include <string>
 
 struct Vertex {
 	float m_x = 0;
 	float m_y = 0;
 
-	Vertex(){}
+	Vertex() {}
 
 	Vertex(float x, float y) {
 		m_x = x;
@@ -25,3 +27,5 @@ struct Vertex {
 		return false;
 	}
 };
+
+#endif // !TYPEDEF_H

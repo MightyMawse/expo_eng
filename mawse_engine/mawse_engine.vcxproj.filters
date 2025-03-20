@@ -42,6 +42,12 @@
     <ClCompile Include="globals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utils.h">
@@ -68,5 +74,14 @@
     <ClInclude Include="globals.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="system.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

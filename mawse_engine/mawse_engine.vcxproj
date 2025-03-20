@@ -71,12 +71,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>F:\SDL2-2.32.0\include;$(IncludePath)</IncludePath>
-    <LibraryPath>F:\SDL2-2.32.0\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\llama\OneDrive\Documents\SDL2-2.30.11\include;F:\SDL2-2.32.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\llama\OneDrive\Documents\SDL2-2.30.11\lib\x64;F:\SDL2-2.32.0\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>F:\SDL2-2.32.0\include;$(IncludePath)</IncludePath>
-    <LibraryPath>F:\SDL2-2.32.0\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\llama\OneDrive\Documents\SDL2-2.30.11\include;F:\SDL2-2.32.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\llama\OneDrive\Documents\SDL2-2.30.11\lib\x64;F:\SDL2-2.32.0\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -139,23 +139,37 @@
   <ItemGroup>
     <ClCompile Include="base_actor.cpp" />
     <ClCompile Include="base_entity.cpp" />
+    <ClCompile Include="geometry.cpp" />
     <ClCompile Include="globals.cpp" />
     <ClCompile Include="graphics.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="player.cpp" />
+    <ClCompile Include="system.cpp" />
     <ClCompile Include="world.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base_actor.h" />
     <ClInclude Include="base_entity.h" />
+    <ClInclude Include="geometry.h" />
     <ClInclude Include="globals.h" />
     <ClInclude Include="graphics.h" />
     <ClInclude Include="player.h" />
+    <ClInclude Include="system.h" />
     <ClInclude Include="typedef.h" />
     <ClInclude Include="utils.h" />
     <ClInclude Include="world.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\nlohmann.json.3.11.3\build\native\nlohmann.json.targets" Condition="Exists('..\packages\nlohmann.json.3.11.3\build\native\nlohmann.json.targets')" />
   </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\nlohmann.json.3.11.3\build\native\nlohmann.json.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\nlohmann.json.3.11.3\build\native\nlohmann.json.targets'))" />
+  </Target>
 </Project>

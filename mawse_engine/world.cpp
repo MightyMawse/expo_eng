@@ -1,11 +1,15 @@
 #include "world.h"
+#include "globals.h"
+#include "system.h"
+#include "geometry.h"
+#include <fstream>
 
 World::World() {
 	// TODO: Load map from file
 
-	// Initialise all walls into hashmap for quicker searching
-	ReloadWallHash();
 }
+
+World::~World(){}
 
 //--------------------------------------------------
 // IsWall()
@@ -33,13 +37,15 @@ void World::DynamicAddWall(Vertex& v) {
 }
 
 //--------------------------------------------------
-// ReloadWallHash()
-// purpose: Reload the wall hash, is used when a post
-// init change has been made
+// LoadMap()
+// purpose: Load map from file
 //--------------------------------------------------
-void World::ReloadWallHash() {
-	wallHash.clear();
-	for (Vertex& w : walls) {
-		wallHash.insert({ w, true });
-	}
+void World::LoadMap(const char* path) {
+	json mapData = Globals::ParseJson(searchPath_maps + path);  
+
+	if (mapData == NULL)
+		return;
+
+	Geometry* pGeometry = new Geometry(mapData);
+	walls = pGeometry->GetWalls();
 }

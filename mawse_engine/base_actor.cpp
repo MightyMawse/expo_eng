@@ -13,5 +13,4 @@ void Base_actor::RotateTo(float a) {
 
 void Base_actor::RotateBy(float a) {
 	this->a = std::fmod(this->a + a + 360.0f, 360.0f);
-	std::cout << "Player Rotation: " + std::to_string(this->a) << std::endl;
 }

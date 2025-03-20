@@ -21,7 +21,7 @@ void Graphics::Init(void) {
 
 void DrawBackground() {
 	// Draw sky and ground
-	SDL_SetRenderDrawColor(pRenderer, 173, 250, 255, SDL_ALPHA_OPAQUE);
+	SDL_SetRenderDrawColor(pRenderer, 100, 149, 237, SDL_ALPHA_OPAQUE);
 
 	SDL_Rect rect;
 	rect.x = 0;
@@ -260,9 +260,6 @@ float Graphics::Raycast(Vertex v, float a) {
 // purpose: Get column height
 //--------------------------------------------------
 float Graphics::GetColumnHeight(float l) {
-	//float lengthOverRD = l / RENDER_DISTANCE;
-	//float inverse = 1 - lengthOverRD;
-	//float height = inverse * WIN_HEIGHT;
 	float height = (WIN_HEIGHT * WALL_HEIGHT) / l;
 	return height;
 }
@@ -321,7 +318,7 @@ void Graphics::Render(void) {
 	SDL_SetRenderDrawColor(pRenderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
 	SDL_RenderClear(pRenderer);
 
-	//DrawBackground();
+	DrawBackground();
 
 	float columnWidth = (float)WIN_WIDTH / (float)(PARTITION_SIZE - 1);
 

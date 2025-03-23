@@ -14,6 +14,8 @@ std::vector<Vertex> Geometry::GetWalls() {
 	std::vector<std::string> geometry = m_mapData["geometry"].template get<std::vector<std::string>>();
 	std::vector<Vertex> walls;
 
+	reverse(geometry.begin(), geometry.end());
+
 	for (int y = 0; y < geometry.size(); y++) {
 		std::string row = geometry[y];
 		for (int x = 0; x < row.size(); x++) {

@@ -7,4 +7,7 @@ public:
 
 	void Move() override;
 	void MoveBy(float f);
+
+	float movementSpeed = 0.1f;
+	float rotationSpeed = 3;
 };

@@ -7,13 +7,18 @@
 #define PI 3.14
 #define DEG(x) ((PI / 180.0f) * (x))
 #define RENDER_DISTANCE 10
-#define WIN_HEIGHT 480
-#define WIN_WIDTH 680
-#define PARTITION_SIZE 100 // Must be even
+
+//#define WIN_HEIGHT 480
+//#define WIN_WIDTH 680
+//#define PARTITION_SIZE 200 // Must be even
+
 #define FOV 45
 #define NEAR_CLIP 0.1f
 #define WALL_HEIGHT 1.0f
 
+extern int PARTITION_SIZE;
+extern int WIN_WIDTH;
+extern int WIN_HEIGHT;
 extern SDL_Renderer* pRenderer;
 
 static class Graphics {
@@ -34,7 +39,6 @@ private:
 	static float SignMatch(float f, float dir);
 	static void  DrawColumn(float x, float height);
 	static float GetColumnHeight(float l);
-	static Vertex& InLineCastPos(int iter, float aPerpendicular);
 private:
 	static std::vector<Vertex> inlineCastPos;
 	static std::vector<float> projectionAngles;

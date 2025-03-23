@@ -2,8 +2,11 @@
 	"game": "hl3",
 	"title": "Half-Life 3",
 	"type": "single_player",
+	"debug": true,
 	"search_paths":{
-		"maps": "",
-		"sound": ""
+		"maps": "game/maps/",
+		"sound": "game/sound/",
+		"resources": "game/resources/",
+		"textures": "game/textures/"
 	}
 }

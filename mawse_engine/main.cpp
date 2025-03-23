@@ -6,18 +6,15 @@
 int main(int argc, char* argv[]) {
 
 	// Load system
-	System::LoadGameInfo();
-
-	// Assert test
-	System::Assert(ASRT_INF, "Hello Expo engine!");
+	System::Init();
 	
 	// Init world
 	pWorld = new World();
 	pWorld->LoadMap("test_map.json");
 
 	// Init player
-	pPlayer = new Player(2, 2, "player");
-	pPlayer->RotateTo(90);
+	pPlayer = new Player(5, 7, "player");
+	pPlayer->RotateTo(180);
 
 	Globals::InitWindow();
 	Graphics::Init();

@@ -9,9 +9,15 @@ extern std::string gameInfo_game;
 extern std::string gameInfo_title;
 extern std::string searchPath_maps;
 extern std::string searchPath_sound;
+extern std::string searchPath_res;
+extern std::string searchPath_textures;
+extern bool debugEnabled;
 
 static class System {
 public:
+	static void Init();
 	static void LoadGameInfo();
 	static void Assert(int asrt, const char* msg);
+	static void DisplayPlayerTransform();
+	static void InitDebugText();
 };

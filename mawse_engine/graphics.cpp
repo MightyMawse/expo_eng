@@ -12,11 +12,22 @@ std::vector<float> Graphics::angleOffsets;
 
 SDL_Renderer* pRenderer = nullptr;
 std::vector<SDL_Rect> wallRects;
+int PARTITION_SIZE = 10;
+int WIN_WIDTH = 680;
+int WIN_HEIGHT = 480;
 
 void Graphics::Init(void) {
 	pRenderer = SDL_CreateRenderer(pMainWin, -1, SDL_RENDERER_ACCELERATED);
 	std::cout << SDL_GetError() << std::endl;
-	return;
+
+	json settings = Globals::ParseJson("game/config/settings.json");
+
+	if (settings == NULL)
+		return;
+
+	PARTITION_SIZE = settings["resolution"].template get<int>();
+	WIN_WIDTH = settings["screen_width"].template get<int>();
+	WIN_HEIGHT = settings["screen_height"].template get<int>();
 }
 
 void DrawBackground() {
@@ -142,7 +153,7 @@ Vertex Graphics::CalculatePoint(Vertex v1, float a) {
 		p2.m_x = x;
 	}
 
-	return p2;
+ 	return p2;
 }
 
 //--------------------------------------------------

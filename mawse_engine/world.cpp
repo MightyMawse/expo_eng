@@ -22,7 +22,8 @@ bool World::IsWall(Vertex v) {
 
 	for (Vertex& w : walls) {
 		Vertex fl = v.Trunc();
-		if (w == fl)
+		bool wallCollison = (v.m_x >= w.m_x && v.m_x <= w.m_x + 1) && (v.m_y >= w.m_y && v.m_y <= w.m_y + 1);
+		if (wallCollison)
 			return true;
 	}
 	return false;

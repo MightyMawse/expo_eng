@@ -1,15 +1,115 @@
-﻿  system.cpp
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\typedef.h(18,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\typedef.h(18,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\system.h(13,14): warning C4091: 'static ': ignored on left of 'System' when no variable is declared
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.h(19,14): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\globals.h(12,14): warning C4091: 'static ': ignored on left of 'Globals' when no variable is declared
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (mawse_engine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  globals.cpp
+F:\expo_eng\mawse_engine\graphics.h(46,2): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
+  (compiling source file 'globals.cpp')
+  
+F:\expo_eng\mawse_engine\globals.h(17,2): warning C4091: 'static ': ignored on left of 'Globals' when no variable is declared
+  (compiling source file 'globals.cpp')
+  
+F:\expo_eng\mawse_engine\system.h(23,2): warning C4091: 'static ': ignored on left of 'System' when no variable is declared
+  (compiling source file 'globals.cpp')
+  
+  graphics.cpp
+F:\expo_eng\mawse_engine\typedef.h(18,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'graphics.cpp')
+  
+F:\expo_eng\mawse_engine\typedef.h(18,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'graphics.cpp')
+  
+F:\expo_eng\mawse_engine\graphics.h(46,2): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
+  (compiling source file 'graphics.cpp')
+  
+F:\expo_eng\mawse_engine\globals.h(17,2): warning C4091: 'static ': ignored on left of 'Globals' when no variable is declared
+  (compiling source file 'graphics.cpp')
+  
+F:\expo_eng\mawse_engine\utils.h(37,2): warning C4091: 'static ': ignored on left of 'Utils' when no variable is declared
+  (compiling source file 'graphics.cpp')
+  
+F:\expo_eng\mawse_engine\utils.h(10,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'graphics.cpp')
+  
+F:\expo_eng\mawse_engine\utils.h(34,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'graphics.cpp')
+  
+F:\expo_eng\mawse_engine\graphics.cpp(80,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(89,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(129,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(130,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(167,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(170,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(173,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(176,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(190,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(193,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(196,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(199,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(213,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(216,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(229,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(232,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(242,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(243,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(284,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(286,58): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(286,47): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(286,36): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(292,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(293,40): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(294,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(295,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(365,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(366,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(369,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(370,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(373,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(374,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(377,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\expo_eng\mawse_engine\graphics.cpp(378,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+F:\expo_eng\mawse_engine\graphics.h(46,2): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+F:\expo_eng\mawse_engine\globals.h(17,2): warning C4091: 'static ': ignored on left of 'Globals' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+F:\expo_eng\mawse_engine\system.h(23,2): warning C4091: 'static ': ignored on left of 'System' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+  system.cpp
+F:\expo_eng\mawse_engine\typedef.h(18,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'system.cpp')
+  
+F:\expo_eng\mawse_engine\typedef.h(18,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'system.cpp')
+  
+F:\expo_eng\mawse_engine\system.h(23,2): warning C4091: 'static ': ignored on left of 'System' when no variable is declared
+  (compiling source file 'system.cpp')
+  
+F:\expo_eng\mawse_engine\graphics.h(46,2): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
+  (compiling source file 'system.cpp')
+  
+F:\expo_eng\mawse_engine\globals.h(17,2): warning C4091: 'static ': ignored on left of 'Globals' when no variable is declared
+  (compiling source file 'system.cpp')
+  
   world.cpp
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\typedef.h(18,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\typedef.h(18,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\graphics.h(19,14): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\globals.h(12,14): warning C4091: 'static ': ignored on left of 'Globals' when no variable is declared
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\system.h(13,14): warning C4091: 'static ': ignored on left of 'System' when no variable is declared
+F:\expo_eng\mawse_engine\typedef.h(18,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'world.cpp')
+  
+F:\expo_eng\mawse_engine\typedef.h(18,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'world.cpp')
+  
+F:\expo_eng\mawse_engine\graphics.h(46,2): warning C4091: 'static ': ignored on left of 'Graphics' when no variable is declared
+  (compiling source file 'world.cpp')
+  
+F:\expo_eng\mawse_engine\globals.h(17,2): warning C4091: 'static ': ignored on left of 'Globals' when no variable is declared
+  (compiling source file 'world.cpp')
+  
+F:\expo_eng\mawse_engine\system.h(23,2): warning C4091: 'static ': ignored on left of 'System' when no variable is declared
+  (compiling source file 'world.cpp')
+  
   Generating Code...
-C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\mawse_engine\typedef.h(19,1): warning C4172: returning address of local variable or temporary: f
-  mawse_engine.vcxproj -> C:\Users\llama\OneDrive\Documents\GitHub\expo_eng\x64\Debug\mawse_engine.exe
+F:\expo_eng\mawse_engine\typedef.h(19,1): warning C4172: returning address of local variable or temporary: f
+F:\expo_eng\mawse_engine\graphics.cpp(71,1): warning C4715: 'Graphics::GetAlpha': not all control paths return a value
+F:\expo_eng\mawse_engine\graphics.cpp(98,1): warning C4172: returning address of local variable or temporary: dir
+F:\expo_eng\mawse_engine\graphics.cpp(382,1): warning C4172: returning address of local variable or temporary: next
+  mawse_engine.vcxproj -> F:\expo_eng\x64\Debug\game.exe

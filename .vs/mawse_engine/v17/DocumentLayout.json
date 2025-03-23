@@ -1,50 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\",
+  "WorkspaceRootPath": "F:\\expo_eng\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\system.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\system.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\system.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\world.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\world.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\system.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\system.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\system.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\geometry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\geometry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\base_actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\base_actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\typedef.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\typedef.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\world.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\world.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\globals.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\globals.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\globals.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\world.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\world.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\geometry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\typedef.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\typedef.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\geometry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\geometry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\geometry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\geometry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|F:\\expo_eng\\mawse_engine\\world.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA63AEC3-A160-490E-A39B-41A8144D4B45}|mawse_engine\\mawse_engine.vcxproj|solutionrelative:mawse_engine\\world.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,80 +66,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "player.h",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\player.h",
+              "RelativeDocumentMoniker": "mawse_engine\\player.h",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\player.h",
+              "RelativeToolTip": "mawse_engine\\player.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-23T06:29:44.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "graphics.cpp",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\graphics.cpp",
+              "RelativeDocumentMoniker": "mawse_engine\\graphics.cpp",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\graphics.cpp",
+              "RelativeToolTip": "mawse_engine\\graphics.cpp",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAowA4BAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-23T04:08:01.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "graphics.h",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\graphics.h",
+              "RelativeDocumentMoniker": "mawse_engine\\graphics.h",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\graphics.h",
+              "RelativeToolTip": "mawse_engine\\graphics.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-17T04:07:27.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "base_actor.cpp",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\base_actor.cpp",
+              "RelativeDocumentMoniker": "mawse_engine\\base_actor.cpp",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\base_actor.cpp",
+              "RelativeToolTip": "mawse_engine\\base_actor.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-23T02:11:36.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "system.cpp",
-              "DocumentMoniker": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\system.cpp",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\system.cpp",
               "RelativeDocumentMoniker": "mawse_engine\\system.cpp",
-              "ToolTip": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\system.cpp",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\system.cpp",
               "RelativeToolTip": "mawse_engine\\system.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAHAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAFAAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-10T14:10:29.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "system.h",
-              "DocumentMoniker": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\system.h",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\system.h",
               "RelativeDocumentMoniker": "mawse_engine\\system.h",
-              "ToolTip": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\system.h",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\system.h",
               "RelativeToolTip": "mawse_engine\\system.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-10T14:01:21.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "geometry.cpp",
-              "DocumentMoniker": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\geometry.cpp",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\geometry.cpp",
               "RelativeDocumentMoniker": "mawse_engine\\geometry.cpp",
-              "ToolTip": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\geometry.cpp",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\geometry.cpp",
               "RelativeToolTip": "mawse_engine\\geometry.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-10T13:44:28.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\main.cpp",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\main.cpp",
               "RelativeDocumentMoniker": "mawse_engine\\main.cpp",
-              "ToolTip": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\main.cpp",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\main.cpp",
               "RelativeToolTip": "mawse_engine\\main.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-10T13:39:44.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "typedef.h",
-              "DocumentMoniker": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\typedef.h",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\typedef.h",
               "RelativeDocumentMoniker": "mawse_engine\\typedef.h",
-              "ToolTip": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\typedef.h",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\typedef.h",
               "RelativeToolTip": "mawse_engine\\typedef.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-10T13:29:07.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "geometry.h",
-              "DocumentMoniker": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\geometry.h",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\geometry.h",
               "RelativeDocumentMoniker": "mawse_engine\\geometry.h",
-              "ToolTip": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\geometry.h",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\geometry.h",
               "RelativeToolTip": "mawse_engine\\geometry.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -136,11 +200,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "globals.h",
-              "DocumentMoniker": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\globals.h",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\globals.h",
               "RelativeDocumentMoniker": "mawse_engine\\globals.h",
-              "ToolTip": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\globals.h",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\globals.h",
               "RelativeToolTip": "mawse_engine\\globals.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -149,54 +213,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "globals.cpp",
-              "DocumentMoniker": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\globals.cpp",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\globals.cpp",
               "RelativeDocumentMoniker": "mawse_engine\\globals.cpp",
-              "ToolTip": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\globals.cpp",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\globals.cpp",
               "RelativeToolTip": "mawse_engine\\globals.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABQAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-06T13:09:25.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "world.h",
-              "DocumentMoniker": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\world.h",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\world.h",
               "RelativeDocumentMoniker": "mawse_engine\\world.h",
-              "ToolTip": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\world.h",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\world.h",
               "RelativeToolTip": "mawse_engine\\world.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-06T13:08:17.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T13:08:17.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "world.cpp",
-              "DocumentMoniker": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\world.cpp",
+              "DocumentMoniker": "F:\\expo_eng\\mawse_engine\\world.cpp",
               "RelativeDocumentMoniker": "mawse_engine\\world.cpp",
-              "ToolTip": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\world.cpp",
+              "ToolTip": "F:\\expo_eng\\mawse_engine\\world.cpp",
               "RelativeToolTip": "mawse_engine\\world.cpp",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAAC4AAAAJAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-06T13:07:57.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "graphics.h",
-              "DocumentMoniker": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\graphics.h",
-              "RelativeDocumentMoniker": "mawse_engine\\graphics.h",
-              "ToolTip": "C:\\Users\\llama\\OneDrive\\Documents\\GitHub\\expo_eng\\mawse_engine\\graphics.h",
-              "RelativeToolTip": "mawse_engine\\graphics.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-17T04:07:27.807Z",
               "EditorCaption": ""
             }
           ]

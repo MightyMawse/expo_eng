@@ -26,7 +26,7 @@ void Globals::InitWindow() {
         SDL_WINDOWPOS_CENTERED,
         SDL_WINDOWPOS_CENTERED,
         WIN_WIDTH, WIN_HEIGHT,
-        SDL_WINDOW_SHOWN);
+        SDL_WINDOW_RESIZABLE | SDL_WINDOW_SHOWN);
 
     if (!pMainWin)
     {
@@ -65,29 +65,23 @@ void Globals::InitGameLoop() {
                 break;
             }
             case SDL_KEYDOWN: { // TODO: move to player?
-                switch (e.key.keysym.sym)
-                {
-                case SDLK_LEFT: {
-                    pPlayer->RotateBy(-2);
-                    Graphics::Render();
-                    break;
+                SDL_Keycode key = e.key.keysym.sym;
+
+                if (key == SDLK_LEFT) {
+                    pPlayer->RotateBy(-pPlayer->rotationSpeed);
                 }
-                case SDLK_RIGHT: {
-                    pPlayer->RotateBy(2);
-                    Graphics::Render();
-                    break;
+                else if (key == SDLK_RIGHT) {
+                    pPlayer->RotateBy(pPlayer->rotationSpeed);
                 }
-                case SDLK_UP: {
-                    pPlayer->MoveBy(0.1f);
-                    Graphics::Render();
-                    break;
+                else if (key == SDLK_UP) {
+                    pPlayer->MoveBy(pPlayer->movementSpeed);
                 }
-                case SDLK_DOWN: {
-                    pPlayer->MoveBy(-0.1f);
-                    Graphics::Render();
-                    break;
+                else if (key == SDLK_DOWN) {
+                    pPlayer->MoveBy(-pPlayer->movementSpeed);
                 }
-                }
+
+                Graphics::Render();
+                System::DisplayPlayerTransform();
             }
             }
 
